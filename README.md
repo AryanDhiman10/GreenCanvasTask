@@ -14,4 +14,5 @@ The input file is csv and I had to parse it into JSON objects and store it into 
 5. Open http://www.localhost.com/3000/ in your browser and fill the form and submit.
 6. As default, I have set the post request to show the parsed data.
 7. In mongo shell, use the command ```show dbs```. It should show a new database named **GreenCanvas**.
-8. Use ```db.details.find()``` and ```db.parseddatas.find()``` to get the stored data.
+8. Use ```use GreenCanvas```.
+9. Use ```db.details.find()``` and ```db.parseddatas.find()``` to get the stored data.
