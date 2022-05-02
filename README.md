@@ -7,7 +7,7 @@ The first 3 fields will go straight forward in a MongoDB collection named **deta
 The input file is csv and I had to parse it into JSON objects and store it into another collection named **parseddatas**.
 
 ## Steps to reproduce the result
-1. Fork and clone the repository on your local file.
+1. Fork and clone the repository on your local machine.
 2. Change directory to GreenCanvasTask folder and use the command ```npm i```.
 3. Make sure you have mongo server up and running.
 4. In the terminal, use the command ```nodemon app.js```.
